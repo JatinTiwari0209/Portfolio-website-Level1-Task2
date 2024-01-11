@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin's Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Bree+Serif&family=Lemon&family=Noto+Sans&family=Noto+Sans+Chorasmian&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald&family=PT+Serif:ital@1&family=Poppins:wght@200;400;600;700&family=Roboto+Condensed&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="L1T2.css">
+    <script src="https://kit.fontawesome.com/157febe9c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://logos.textgiraffe.com/logos/logo-name/jatin-designstyle-passion-l.png" alt="" class="logo">
+               <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               </ul> 
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Jatin Tiwari</span> </h1>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column1">
+                    <img src=image1a.png >
+                    
+
+                </div>
+               <div class="about-column2">
+                <h1 class="erp">About me</h1>
+                <p>
+                    I'm Jatin Tiwari—an engineering student and precision-driven rifle shooter, blending analytical thinking and discipline. With a solid engineering foundation, I excel in problem-solving and system analysis. As an aspiring full-stack web developer, I'm passionate about crafting intuitive interfaces and mastering both frontend and backend technologies. Eager to contribute my diverse skill set and tech-driven enthusiasm to impactful projects. Let's connect!
+                    
+                    <br></p>
+                <div class="tab-titles ">
+                    <p class="tab-links     active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Frontend Development:</span><br>HTML,CSS,Javascript,<br>Bootstrap,React etc</li>
+                        <li><span>Backend Development:</span><br>Node,Express,PHP,python,<br>Sql,Postgrsql etc</li>
+                        <li><span>Other tech skills:</span><br>Word,Powerpoint,Excel<br>Matlab etc</li>
+                        <li><span>Soft skills:</span><br>Leadership qualities, always owed with can-do-spirit<br>problem-solving abilities etc</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                   <p><ul><li><span>Internship at Globetrans Worldwide</span></li></ul><br>I worked as an intern at Globetrans Worldwide Pvt Ltd, a
+                    logistics and supply chain company, for one year. During
+                    my tenure, I successfully streamlined their operation
+                    processes and handled operations for companies such
+                    as Raymonds and Hathway Cables.</p>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <p><ul>
+                        
+                        <li><span>Education:</span><br>PURSUING BE IN EXTC FROM VIVA TECH<br>PASSED HSC EXAMS IN YEAR 2020<br>PASSED sSC EXAMS IN YEAR 2018</li>
+                      
+
+                    </ul></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="erp">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p><b>Custom Web Design:</b> Tailored and innovative web design solutions crafted to reflect your unique brand identity and captivate your audience.<br>
+
+                   <b> Responsive Design:</b> Creating engaging and intuitive websites optimized for seamless user experiences across all devices and screen sizes.</p>
+                   <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-address-card"></i>
+                    <h2>Frontend Development</h2>
+                    <p><b>Custom UI/UX Design: </b>Crafting visually appealing and intuitive user interfaces that elevate user experiences and engagement.<br>
+                        
+                        
+                   <b>Responsive Web Design: </b>Creating adaptive and seamless web layouts ensuring optimal performance across devices and screen sizes </p>
+                   <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Backend Development</h2>
+                    <p><b>Robust Backend Solutions:</b> Creating powerful and scalable server-side architectures to support complex web applications.<br>
+
+                   <b> Data-driven Backend Development:</b> Building efficient databases and logic for seamless data management and application functionality.</p>
+                   <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="erp">My Work</h1>
+            <div class="work">
+                <div class="work-list">
+                    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHx8MA%3D%3D" >
+                    <div class="project">
+                        <h3>Sigma Gym</h3>
+                        <p>Crafted a dynamic gym website landing page, showcasing fitness offerings, schedules, and membership details, inspiring visitors with a motivating and accessible platform for achieving their fitness goals.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work-list">
+                    <img src="https://media.istockphoto.com/id/1291961188/photo/stunning-view-of-the-hawa-mahal-at-sunset-with-blurred-people-walking-during-the-covid-19.webp?b=1&s=170667a&w=0&k=20&c=1R04uRuM5PbsYSSNE8sPQdqB2z7Pp6vN1D2TA-VsBIQ=" >
+                    <div class="project">
+                        <h3>MeruQuest</h3>
+                        <p>Designed an enticing landing page for tourism in India, featuring captivating visuals, engaging content, and user-friendly navigation, showcasing the diverse cultural and scenic richness of India's travel destinations.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work-list">
+                    <img src="https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZ298ZW58MHx8MHx8fDA%3D" >
+                    <div class="project">
+                        <h3>Supply Track and Demand forecasting</h3>
+                        <p>SupplyTrack: Streamlining cargo tracking and demand forecasting, providing real-time insights and predictive analytics for optimized supply chain management.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+ </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="erp">Contact me</h1>
+                    <p><a href="#"><i class="fa-solid fa-envelope"></i></a>jatintiwari73119@gmail.com</p>
+                    <p><a href="#"><i class="fa-solid fa-mobile"></i></a>7666205377</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jatin-tiwari-41421626a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bxs0n3RdYTHGVPzpDvDZFsg%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/jatintiwari73119?igsh=ZWYyNzZvbnl6cXh5"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/JatinTiwari0209"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.snapchat.com/add/jatintiwari02?share_id=TkHg_YvLOv8&locale=en-IN"><i class="fa-brands fa-square-snapchat"></i></a>
+                        <a href="https://www.threads.net/@jatintiwari73119"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://wa.me/qr/FC5SO4IFA6PYM1"><i class="fa-brands fa-whatsapp"></i></a>
+                        
+                       
+
+                
+                    </div>
+                    <a href="JATIN TIWARI CV.pdf" download="btn btn2" class="btn btn2">Download CV</a>
+            
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        
+
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+               tablink.classList.remove("active-link"); 
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab"); 
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
